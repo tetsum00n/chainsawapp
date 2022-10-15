@@ -1,0 +1,7 @@
+<ion-grid fixed>
+  <ion-row class="ion-margin">
+    <ion-col size-lg="3" size-md="4" size-sm="6" size-xs="12" *ngFor="let personaje of personajes, let i=index">
+    <app-personaje [personaje]="personaje" [index]="i"></app-personaje>
+    </ion-col>
+  </ion-row>
+</ion-grid>
